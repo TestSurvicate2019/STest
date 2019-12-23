@@ -1,0 +1,74 @@
+/*
+Theme Name: LearningWordPress
+Author: Valeriia
+Version: 1.0
+*/
+@font-face {
+
+font-family: 'OpenSans';
+
+src: url('../fonts/OpenSans-Light.ttf');
+
+font-weight: normal;
+
+}
+body{
+	font-family: 'OpenSans', sans-serif !important;
+}
+header{
+	height: 100px;
+	width: 100%;
+	z-index: 1;
+}
+header #menu-menu1{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+header .container{
+	height: 100%;
+	align-items: center;
+}
+#menu-item-2366{
+	border-radius: 20px;
+	background: transparent linear-gradient(270deg, #A6C631 0%, #6FC84A 100%) 0% 0% no-repeat padding-box;
+	box-shadow: 0px 10px 20px #70C84A80;
+	padding: 1px 5px;
+
+}
+header #menu-item-2366 a{
+    color: white !important;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 15px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}

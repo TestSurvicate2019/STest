@@ -1,3 +1,0 @@
-# rr
-# dd
-# SurvicateTest
